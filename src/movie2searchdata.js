@@ -19,13 +19,6 @@ export default {
       description: '(2010 Video)',
     },
     {
-      id: 'nm0005042',
-      image:
-        'https://imdb-api.com/images/original/MV5BMTc1NTI5MzE2OF5BMl5BanBnXkFtZTgwODYyNjM4MTE@._V1_Ratio0.7273_AL_.jpg',
-      name: 'Jason Isaacs',
-      asCharacter: 'Col. William Tavington',
-    },
-    {
       id: 'tt5295990',
       resultType: 'Title',
       image:

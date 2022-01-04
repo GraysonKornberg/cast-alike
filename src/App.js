@@ -18,10 +18,8 @@ function App() {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    const movie1Url = `https://imdb-api.com/API/AdvancedSearch/k_92rp5w04?title=${firstMovie}&title_type=feature,tv_movie,tv_series,tv_miniseries,documentary,short,podcast_series`
-    //`https://imdb-api.com/en/API/SearchMovie/k_92rp5w04/${firstMovie}`
-    const movie2Url = `https://imdb-api.com/API/AdvancedSearch/k_92rp5w04?title=${secondMovie}&title_type=feature,tv_movie,tv_series,tv_miniseries,documentary,short,podcast_series`
-    //`https://imdb-api.com/en/API/SearchMovie/k_92rp5w04/${secondMovie}`
+    const movie1Url = `https://imdb-api.com/API/SearchTitle/k_92rp5w04/${firstMovie}`
+    const movie2Url = `https://imdb-api.com/API/SearchTitle/k_92rp5w04/${secondMovie}`
 
     setMovieIds(movie1Url, movie2Url)
   }
